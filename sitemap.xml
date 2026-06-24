@@ -3,21 +3,87 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://heimdallmap.com</loc>
-    <lastmod>2026-06-24</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://heimdallmap.com"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://heimdallmap.com?lang=de"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://heimdallmap.com?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://heimdallmap.com?lang=fr"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://heimdallmap.com?lang=hi"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://heimdallmap.com?lang=it"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://heimdallmap.com?lang=ja"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://heimdallmap.com?lang=ko"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://heimdallmap.com?lang=pl"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://heimdallmap.com?lang=pt"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://heimdallmap.com?lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://heimdallmap.com?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://heimdallmap.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://heimdallmap.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://heimdallmap.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://heimdallmap.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://heimdallmap.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://heimdallmap.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://heimdallmap.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://heimdallmap.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://heimdallmap.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://heimdallmap.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://heimdallmap.com/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://heimdallmap.com"/>
+  </url>
+  <url>
+    <loc>https://heimdallmap.com/de/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://heimdallmap.com/es/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://heimdallmap.com/fr/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://heimdallmap.com/hi/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://heimdallmap.com/it/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://heimdallmap.com/ja/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://heimdallmap.com/ko/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://heimdallmap.com/pl/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://heimdallmap.com/pt/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://heimdallmap.com/ru/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://heimdallmap.com/zh/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
