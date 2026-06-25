@@ -103,8 +103,17 @@
     "offers": [
       {
         "@type": "Offer",
+        "name": "Free License for Students & Job Seekers",
+        "price": "0",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "eligibleCustomerType": "Student",
+        "url": "https://heimdallmap.com#pricing"
+      },
+      {
+        "@type": "Offer",
         "name": "Monthly License",
-        "price": "4.99",
+        "price": "3.99",
         "priceCurrency": "EUR",
         "priceValidUntil": "2026-12-31",
         "availability": "https://schema.org/InStock",
@@ -113,7 +122,7 @@
       {
         "@type": "Offer",
         "name": "Annual License",
-        "price": "52.99",
+        "price": "42.39",
         "priceCurrency": "EUR",
         "priceValidUntil": "2026-12-31",
         "availability": "https://schema.org/InStock",
@@ -121,20 +130,11 @@
       },
       {
         "@type": "Offer",
-        "name": "Support License",
-        "price": "9.99",
+        "name": "Patron License",
+        "price": "7.99",
         "priceCurrency": "EUR",
         "priceValidUntil": "2026-12-31",
         "availability": "https://schema.org/InStock",
-        "url": "https://heimdallmap.com#pricing"
-      },
-      {
-        "@type": "Offer",
-        "name": "Free License for Students & Job Seekers",
-        "price": "0",
-        "priceCurrency": "EUR",
-        "availability": "https://schema.org/InStock",
-        "eligibleCustomerType": "Student",
         "url": "https://heimdallmap.com#pricing"
       }
     ],
@@ -282,8 +282,8 @@
   }
   </script>
 
-  <script type="module" crossorigin src="/assets/index-B7hhGzlQ.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-cQMI7IdC.css">
+  <script type="module" crossorigin src="/assets/index-Dn74Ejiz.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-DNiUMIG_.css">
 </head>
 <body>
   <!-- Noscript fallback for crawlers without JS -->
@@ -316,7 +316,7 @@
       </a>
       <div class="nav-links">
         <a href="#how-it-works" class="nav-link" data-i18n="nav_how">사용 방법</a>
-        <a href="#use-cases" class="nav-link">Use Cases</a>
+        <a href="#use-cases" class="nav-link" data-i18n="nav_use_cases">사용 사례</a>
         <a href="#overview" class="nav-link" data-i18n="nav_overview">비전</a>
         <a href="#faq" class="nav-link" data-i18n="nav_faq">FAQ</a>
         <a href="#pricing" class="nav-link" data-i18n="nav_pricing">가격</a>
@@ -773,74 +773,15 @@
         <p class="section-subtitle" data-i18n="pricing_subtitle">자신에게 맞는 플랜을 선택하세요. 모든 플랜에 Heimdall에 대한 전체 액세스와 모든 업데이트가 포함되어 있습니다.</p>
 
         <div class="pricing-grid">
-          <!-- Monthly -->
-          <article class="pricing-card">
-            <div class="pricing-card-header">
-              <h3 class="pricing-name" data-i18n="plan_monthly_name">월간</h3>
-              <div class="pricing-price">
-                <span class="price-amount">4.99</span>
-                <span class="price-currency">&euro;</span>
-                <span class="price-period" data-i18n="plan_monthly_period">/ 월</span>
-              </div>
-            </div>
-            <ul class="pricing-features" role="list">
-              <li data-i18n="plan_feature_full_access">Heimdall 전체 액세스</li>
-              <li data-i18n="plan_feature_updates">모든 업데이트 포함</li>
-              <li data-i18n="plan_feature_languages">16개 언어 및 프레임워크 분석</li>
-              <li data-i18n="plan_feature_fast">초고속 경험</li>
-              <li data-i18n="plan_feature_free_trial">무료 체험 포함</li>
-            </ul>
-            <a href="https://github.com/heimdallmap/Heimdall/releases" class="btn btn-primary pricing-cta" data-i18n="plan_monthly_cta">월간 플랜 시작</a>
-          </article>
-
-          <!-- Annual (Best Value) -->
-          <article class="pricing-card pricing-card-featured">
-            <div class="pricing-badge" data-i18n="plan_annual_badge">최저가</div>
-            <div class="pricing-card-header">
-              <h3 class="pricing-name" data-i18n="plan_annual_name">연간</h3>
-              <div class="pricing-price">
-                <span class="price-amount">52.99</span>
-                <span class="price-currency">&euro;</span>
-                <span class="price-period" data-i18n="plan_annual_period">/ 년</span>
-              </div>
-            </div>
-            <ul class="pricing-features" role="list">
-              <li data-i18n="plan_feature_full_access">Heimdall 전체 액세스</li>
-              <li data-i18n="plan_feature_updates">모든 업데이트 포함</li>
-              <li data-i18n="plan_feature_languages">16개 언어 및 프레임워크 분석</li>
-              <li data-i18n="plan_feature_fast">초고속 경험</li>
-              <li data-i18n="plan_feature_free_trial">무료 체험 포함</li>
-            </ul>
-            <a href="https://github.com/heimdallmap/Heimdall/releases" class="btn btn-primary pricing-cta" data-i18n="plan_annual_cta">연간 플랜 시작</a>
-          </article>
-
-          <!-- Support -->
-          <article class="pricing-card">
-            <div class="pricing-card-header">
-              <h3 class="pricing-name" data-i18n="plan_support_name">지원</h3>
-              <div class="pricing-price">
-                <span class="price-amount">9.99</span>
-                <span class="price-currency">&euro;</span>
-                <span class="price-period" data-i18n="plan_support_period">/ 월</span>
-              </div>
-            </div>
-            <ul class="pricing-features" role="list">
-              <li data-i18n="plan_feature_full_access">Heimdall 전체 액세스</li>
-              <li data-i18n="plan_feature_updates">모든 업데이트 포함</li>
-              <li data-i18n="plan_feature_languages">16개 언어 및 프레임워크 분석</li>
-              <li data-i18n="plan_feature_fast">초고속 경험</li>
-              <li data-i18n="plan_feature_free_trial">무료 체험 포함</li>
-            </ul>
-            <p class="pricing-disclaimer">* <span data-i18n="plan_support_desc">월간 플랜과 동일합니다. 구독으로 Heimdall을 만들고 있는 독립 개발자를 직접 지원합니다.</span></p>
-            <a href="https://github.com/heimdallmap/Heimdall/releases" class="btn btn-primary pricing-cta" data-i18n="plan_support_cta">지원 플랜 받기</a>
-          </article>
-
           <!-- Free for Unemployed -->
           <article class="pricing-card">
             <div class="pricing-badge" data-i18n="plan_free_badge">커뮤니티</div>
             <div class="pricing-card-header">
               <h3 class="pricing-name" data-i18n="plan_free_name">실직자 & 학생</h3>
               <div class="pricing-price">
+                <div class="price-original-row">
+                  <span class="price-original-placeholder">&nbsp;</span>
+                </div>
                 <span class="price-amount" data-i18n="plan_free_price">무료</span>
               </div>
             </div>
@@ -853,6 +794,85 @@
             </ul>
             <p class="pricing-disclaimer">* <span data-i18n="plan_free_reviewed">신청은 수동으로 검토됩니다</span></p>
             <a href="mailto:app@heimdallmap.com?subject=Free%20Heimdall%20License%20Request&body=Hello%20Heimdall%20Team%2C%0A%0AI%20would%20like%20to%20request%20a%20free%20Heimdall%20license%20for%20unemployed%20developers%20or%20students.%0A%0AThank%20you." class="btn btn-primary pricing-cta" data-i18n="plan_free_cta">무료 라이선스 신청</a>
+          </article>
+
+          <!-- Monthly -->
+          <article class="pricing-card">
+            <div class="pricing-badge pricing-badge-discount" data-i18n="plan_discount_badge">런칭 20% 할인</div>
+            <div class="pricing-card-header">
+              <h3 class="pricing-name" data-i18n="plan_monthly_name">월간</h3>
+              <div class="pricing-price">
+                <div class="price-original-row">
+                  <span class="price-original">4.99<span class="price-currency">&euro;</span></span>
+                </div>
+                <div class="pricing-price-row">
+                  <span class="price-amount">3.99</span>
+                  <span class="price-currency">&euro;</span>
+                  <span class="price-period" data-i18n="plan_monthly_period">/ 월</span>
+                </div>
+              </div>
+            </div>
+            <ul class="pricing-features" role="list">
+              <li data-i18n="plan_feature_full_access">Heimdall 전체 액세스</li>
+              <li data-i18n="plan_feature_updates">모든 업데이트 포함</li>
+              <li data-i18n="plan_feature_languages">16개 언어 및 프레임워크 분석</li>
+              <li data-i18n="plan_feature_fast">초고속 경험</li>
+              <li data-i18n="plan_feature_free_trial">무료 체험 포함</li>
+            </ul>
+            <a href="https://github.com/heimdallmap/Heimdall/releases" class="btn btn-primary pricing-cta" data-i18n="plan_monthly_cta">월간 플랜 시작</a>
+          </article>
+
+          <!-- Patron -->
+          <article class="pricing-card">
+            <div class="pricing-badge pricing-badge-discount" data-i18n="plan_discount_badge">런칭 20% 할인</div>
+            <div class="pricing-card-header">
+              <h3 class="pricing-name" data-i18n="plan_patron_name">후원자</h3>
+              <div class="pricing-price">
+                <div class="price-original-row">
+                  <span class="price-original">9.99<span class="price-currency">&euro;</span></span>
+                </div>
+                <div class="pricing-price-row">
+                  <span class="price-amount">7.99</span>
+                  <span class="price-currency">&euro;</span>
+                  <span class="price-period" data-i18n="plan_patron_period">/ 월</span>
+                </div>
+              </div>
+            </div>
+            <ul class="pricing-features" role="list">
+              <li data-i18n="plan_feature_full_access">Heimdall 전체 액세스</li>
+              <li data-i18n="plan_feature_updates">모든 업데이트 포함</li>
+              <li data-i18n="plan_feature_languages">16개 언어 및 프레임워크 분석</li>
+              <li data-i18n="plan_feature_fast">초고속 경험</li>
+              <li data-i18n="plan_feature_free_trial">무료 체험 포함</li>
+            </ul>
+            <p class="pricing-disclaimer">* <span data-i18n="plan_patron_desc">월간 플랜과 동일합니다. 구독으로 Heimdall을 만들고 있는 독립 개발자를 직접 지원합니다.</span></p>
+            <a href="https://github.com/heimdallmap/Heimdall/releases" class="btn btn-primary pricing-cta" data-i18n="plan_patron_cta">후원자 되기</a>
+          </article>
+
+          <!-- Annual (Best Value) -->
+          <article class="pricing-card pricing-card-featured">
+            <div class="pricing-badge" data-i18n="plan_annual_badge">런칭 특가</div>
+            <div class="pricing-card-header">
+              <h3 class="pricing-name" data-i18n="plan_annual_name">연간</h3>
+              <div class="pricing-price">
+                <div class="price-original-row">
+                  <span class="price-original">52.99<span class="price-currency">&euro;</span></span>
+                </div>
+                <div class="pricing-price-row">
+                  <span class="price-amount">42.39</span>
+                  <span class="price-currency">&euro;</span>
+                  <span class="price-period" data-i18n="plan_annual_period">/ 년</span>
+                </div>
+              </div>
+            </div>
+            <ul class="pricing-features" role="list">
+              <li data-i18n="plan_feature_full_access">Heimdall 전체 액세스</li>
+              <li data-i18n="plan_feature_updates">모든 업데이트 포함</li>
+              <li data-i18n="plan_feature_languages">16개 언어 및 프레임워크 분석</li>
+              <li data-i18n="plan_feature_fast">초고속 경험</li>
+              <li data-i18n="plan_feature_free_trial">무료 체험 포함</li>
+            </ul>
+            <a href="https://github.com/heimdallmap/Heimdall/releases" class="btn btn-primary pricing-cta" data-i18n="plan_annual_cta">연간 플랜 시작</a>
           </article>
         </div>
       </div>
