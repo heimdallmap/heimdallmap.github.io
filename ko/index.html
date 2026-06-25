@@ -219,8 +219,8 @@
   }
   </script>
 
-  <script type="module" crossorigin src="/assets/index-Cu5bNM9t.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-D4GeHvZj.css">
+  <script type="module" crossorigin src="/assets/index-BnbzDLS3.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-iBrn-Dkw.css">
 </head>
 <body>
   <!-- Skip Navigation -->
@@ -657,7 +657,7 @@
 
           <!-- Annual (Best Value) -->
           <article class="pricing-card pricing-card-featured">
-            <div class="pricing-badge" data-i18n="plan_annual_badge">최고 가격</div>
+            <div class="pricing-badge" data-i18n="plan_annual_badge">최저가</div>
             <div class="pricing-card-header">
               <h3 class="pricing-name" data-i18n="plan_annual_name">연간</h3>
               <div class="pricing-price">
@@ -786,11 +786,35 @@
       </div>
 
       <div class="footer-bottom">
-        <p class="footer-copy">&copy; <span id="year"></span> Heimdall. <span data-i18n="footer_rights">All rights reserved.</span></p>
+        <p class="footer-copy">&copy; <span id="year"></span> Heimdall. <span data-i18n="footer_rights">모든 권리 보유.</span></p>
         <a href="mailto:app@heimdallmap.com" class="footer-link">app@heimdallmap.com</a>
       </div>
     </div>
   </footer>
+
+  <!-- Waitlist Modal -->
+  <div class="waitlist-modal" id="waitlist-modal" aria-hidden="true" role="dialog" aria-labelledby="waitlist-modal-title" aria-modal="true">
+    <div class="waitlist-modal-backdrop"></div>
+    <div class="waitlist-modal-content">
+      <button class="waitlist-modal-close" aria-label="Close modal">&times;</button>
+      <h2 id="waitlist-modal-title" class="waitlist-modal-title" data-i18n="waitlist_title">대기 목록 참여</h2>
+      <p class="waitlist-modal-subtitle" data-i18n="waitlist_subtitle">Heimdall 다운로드가 준비되면 가장 먼저 알려드립니다.</p>
+      <div class="newsletter-form-container">
+        <form class="newsletter-form" action="https://app.loops.so/api/newsletter-form/cmqt60ggz059v0j07yngo2x7n" method="POST">
+          <input class="newsletter-form-input" placeholder="you@example.com" required type="email" name="newsletter-form-input" />
+          <button type="submit" class="newsletter-form-button" data-i18n="waitlist_button">참여하기</button>
+          <button type="button" class="newsletter-loading-button" data-i18n="waitlist_loading">잠시만 기다려 주세요...</button>
+        </form>
+        <div class="newsletter-success">
+          <p class="newsletter-success-message" data-i18n="waitlist_success">감사합니다! 곧 연락드리겠습니다!</p>
+        </div>
+        <div class="newsletter-error">
+          <p class="newsletter-error-message" data-i18n="waitlist_error">문제가 발생했습니다. 다시 시도해 주세요</p>
+        </div>
+        <button class="newsletter-back-button" type="button" data-i18n="waitlist_back">← 뒤로</button>
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>

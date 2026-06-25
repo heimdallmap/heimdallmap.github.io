@@ -219,8 +219,8 @@
   }
   </script>
 
-  <script type="module" crossorigin src="/assets/index-Cu5bNM9t.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-D4GeHvZj.css">
+  <script type="module" crossorigin src="/assets/index-BnbzDLS3.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-iBrn-Dkw.css">
 </head>
 <body>
   <!-- Skip Navigation -->
@@ -791,6 +791,30 @@
       </div>
     </div>
   </footer>
+
+  <!-- Waitlist Modal -->
+  <div class="waitlist-modal" id="waitlist-modal" aria-hidden="true" role="dialog" aria-labelledby="waitlist-modal-title" aria-modal="true">
+    <div class="waitlist-modal-backdrop"></div>
+    <div class="waitlist-modal-content">
+      <button class="waitlist-modal-close" aria-label="Close modal">&times;</button>
+      <h2 id="waitlist-modal-title" class="waitlist-modal-title" data-i18n="waitlist_title">加入等待名单</h2>
+      <p class="waitlist-modal-subtitle" data-i18n="waitlist_subtitle">Heimdall 准备好下载时，第一时间通知您。</p>
+      <div class="newsletter-form-container">
+        <form class="newsletter-form" action="https://app.loops.so/api/newsletter-form/cmqt60ggz059v0j07yngo2x7n" method="POST">
+          <input class="newsletter-form-input" placeholder="you@example.com" required type="email" name="newsletter-form-input" />
+          <button type="submit" class="newsletter-form-button" data-i18n="waitlist_button">加入</button>
+          <button type="button" class="newsletter-loading-button" data-i18n="waitlist_loading">请稍候...</button>
+        </form>
+        <div class="newsletter-success">
+          <p class="newsletter-success-message" data-i18n="waitlist_success">谢谢！我们会尽快联系您！</p>
+        </div>
+        <div class="newsletter-error">
+          <p class="newsletter-error-message" data-i18n="waitlist_error">出错了，请重试</p>
+        </div>
+        <button class="newsletter-back-button" type="button" data-i18n="waitlist_back">← 返回</button>
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>

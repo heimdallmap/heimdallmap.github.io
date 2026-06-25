@@ -219,8 +219,8 @@
   }
   </script>
 
-  <script type="module" crossorigin src="/assets/index-Cu5bNM9t.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-D4GeHvZj.css">
+  <script type="module" crossorigin src="/assets/index-BnbzDLS3.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-iBrn-Dkw.css">
 </head>
 <body>
   <!-- Skip Navigation -->
@@ -791,6 +791,30 @@
       </div>
     </div>
   </footer>
+
+  <!-- Waitlist Modal -->
+  <div class="waitlist-modal" id="waitlist-modal" aria-hidden="true" role="dialog" aria-labelledby="waitlist-modal-title" aria-modal="true">
+    <div class="waitlist-modal-backdrop"></div>
+    <div class="waitlist-modal-content">
+      <button class="waitlist-modal-close" aria-label="Close modal">&times;</button>
+      <h2 id="waitlist-modal-title" class="waitlist-modal-title" data-i18n="waitlist_title">Unisciti alla lista d'attesa</h2>
+      <p class="waitlist-modal-subtitle" data-i18n="waitlist_subtitle">Sii il primo a sapere quando Heimdall sarà pronto per il download.</p>
+      <div class="newsletter-form-container">
+        <form class="newsletter-form" action="https://app.loops.so/api/newsletter-form/cmqt60ggz059v0j07yngo2x7n" method="POST">
+          <input class="newsletter-form-input" placeholder="you@example.com" required type="email" name="newsletter-form-input" />
+          <button type="submit" class="newsletter-form-button" data-i18n="waitlist_button">Unisciti</button>
+          <button type="button" class="newsletter-loading-button" data-i18n="waitlist_loading">Attendere prego...</button>
+        </form>
+        <div class="newsletter-success">
+          <p class="newsletter-success-message" data-i18n="waitlist_success">Grazie! Ti contatteremo presto!</p>
+        </div>
+        <div class="newsletter-error">
+          <p class="newsletter-error-message" data-i18n="waitlist_error">Ops! Qualcosa è andato storto, riprova</p>
+        </div>
+        <button class="newsletter-back-button" type="button" data-i18n="waitlist_back">← Indietro</button>
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>

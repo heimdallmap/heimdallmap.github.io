@@ -219,8 +219,8 @@
   }
   </script>
 
-  <script type="module" crossorigin src="/assets/index-Cu5bNM9t.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-D4GeHvZj.css">
+  <script type="module" crossorigin src="/assets/index-BnbzDLS3.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-iBrn-Dkw.css">
 </head>
 <body>
   <!-- Skip Navigation -->
@@ -618,7 +618,7 @@
           </div>
           <div class="faq-item">
             <dt class="faq-question" data-i18n="faq_q7">Heimdallは大きなコードベースを処理できますか？</dt>
-            <dd class="faq-answer" data-i18n="faq_a7">はい。Heimdallはパフォーマンスのためにで構築されており、数十万行のコードを持つ大規模なモノレポを分析できます。グラフインターフェースはプログレッシブな探索をサポートし、すべてを一度にロードせずに特定の領域に集中できます。</dd>
+            <dd class="faq-answer" data-i18n="faq_a7">はい。HeimdallはパフォーマンスのためにRustで構築されており、数十万行のコードを持つ大規模なモノレポを分析できます。グラフインターフェースはプログレッシブな探索をサポートし、すべてを一度にロードせずに特定の領域に集中できます。</dd>
           </div>
           <div class="faq-item">
             <dt class="faq-question" data-i18n="faq_q8">Heimdallは開発者のオンボーディングにどう役立ちますか？</dt>
@@ -786,11 +786,35 @@
       </div>
 
       <div class="footer-bottom">
-        <p class="footer-copy">&copy; <span id="year"></span> Heimdall. <span data-i18n="footer_rights">All rights reserved.</span></p>
+        <p class="footer-copy">&copy; <span id="year"></span> Heimdall. <span data-i18n="footer_rights">全著作権所有。</span></p>
         <a href="mailto:app@heimdallmap.com" class="footer-link">app@heimdallmap.com</a>
       </div>
     </div>
   </footer>
+
+  <!-- Waitlist Modal -->
+  <div class="waitlist-modal" id="waitlist-modal" aria-hidden="true" role="dialog" aria-labelledby="waitlist-modal-title" aria-modal="true">
+    <div class="waitlist-modal-backdrop"></div>
+    <div class="waitlist-modal-content">
+      <button class="waitlist-modal-close" aria-label="Close modal">&times;</button>
+      <h2 id="waitlist-modal-title" class="waitlist-modal-title" data-i18n="waitlist_title">ウェイトリストに参加</h2>
+      <p class="waitlist-modal-subtitle" data-i18n="waitlist_subtitle">Heimdallのダウンロード準備ができたら、いち早くお知らせします。</p>
+      <div class="newsletter-form-container">
+        <form class="newsletter-form" action="https://app.loops.so/api/newsletter-form/cmqt60ggz059v0j07yngo2x7n" method="POST">
+          <input class="newsletter-form-input" placeholder="you@example.com" required type="email" name="newsletter-form-input" />
+          <button type="submit" class="newsletter-form-button" data-i18n="waitlist_button">参加する</button>
+          <button type="button" class="newsletter-loading-button" data-i18n="waitlist_loading">お待ちください...</button>
+        </form>
+        <div class="newsletter-success">
+          <p class="newsletter-success-message" data-i18n="waitlist_success">ありがとうございます！ご連絡いたします！</p>
+        </div>
+        <div class="newsletter-error">
+          <p class="newsletter-error-message" data-i18n="waitlist_error">エラーが発生しました。もう一度お試しください</p>
+        </div>
+        <button class="newsletter-back-button" type="button" data-i18n="waitlist_back">← 戻る</button>
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>
