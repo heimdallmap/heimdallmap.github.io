@@ -1,15 +1,1 @@
-<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-  <!-- Python official logo -->
-  <defs>
-    <linearGradient id="pyb" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#387EB8"/>
-      <stop offset="100%" stop-color="#366994"/>
-    </linearGradient>
-    <linearGradient id="pyy" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FFC836"/>
-      <stop offset="100%" stop-color="#FFD43B"/>
-    </linearGradient>
-  </defs>
-  <path d="M31.8 8C19.5 8 20.4 13.2 20.4 13.2l0 5.4h11.6v1.6H16.6S8 19.2 8 31.8s7.5 12.2 7.5 12.2h4.5V38.5s-.2-7.5 7.4-7.5h12.7s7.1.1 7.1-6.9V14.8S48.2 8 31.8 8zm-7 3.9a2.3 2.3 0 1 1 0 4.6 2.3 2.3 0 0 1 0-4.6z" fill="url(#pyb)"/>
-  <path d="M32.2 56C44.5 56 43.6 50.8 43.6 50.8l0-5.4H32v-1.6h15.4S56 44.8 56 32.2s-7.5-12.2-7.5-12.2h-4.5v5.5s.2 7.5-7.4 7.5H23.9s-7.1-.1-7.1 6.9v9.3S15.8 56 32.2 56zm7-3.9a2.3 2.3 0 1 1 0-4.6 2.3 2.3 0 0 1 0 4.6z" fill="url(#pyy)"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><defs><linearGradient id="a" x1="0%" x2="100%" y1="0%" y2="100%"><stop offset="0%" stop-color="#387eb8"/><stop offset="100%" stop-color="#366994"/></linearGradient><linearGradient id="b" x1="0%" x2="100%" y1="0%" y2="100%"><stop offset="0%" stop-color="#ffc836"/><stop offset="100%" stop-color="#ffd43b"/></linearGradient></defs><path fill="url(#a)" d="M31.8 8c-12.3 0-11.4 5.2-11.4 5.2v5.4H32v1.6H16.6S8 19.2 8 31.8 15.5 44 15.5 44H20v-5.5s-.2-7.5 7.4-7.5h12.7s7.1.1 7.1-6.9v-9.3S48.2 8 31.8 8m-7 3.9a2.3 2.3 0 1 1 0 4.6 2.3 2.3 0 0 1 0-4.6"/><path fill="url(#b)" d="M32.2 56c12.3 0 11.4-5.2 11.4-5.2v-5.4H32v-1.6h15.4s8.6 1 8.6-11.6S48.5 20 48.5 20H44v5.5s.2 7.5-7.4 7.5H23.9s-7.1-.1-7.1 6.9v9.3s-1 6.8 15.4 6.8m7-3.9a2.3 2.3 0 1 1 0-4.6 2.3 2.3 0 0 1 0 4.6"/></svg>

@@ -1,11 +1,1 @@
-<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-  <!-- Kotlin official logo: gradient triangle -->
-  <defs>
-    <linearGradient id="ktg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#E44857"/>
-      <stop offset="50%" stop-color="#C711E1"/>
-      <stop offset="100%" stop-color="#7F52FF"/>
-    </linearGradient>
-  </defs>
-  <path d="M10 54h44L32 32 54 10H10v44z" fill="url(#ktg)"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><defs><linearGradient id="a" x1="0%" x2="100%" y1="0%" y2="100%"><stop offset="0%" stop-color="#e44857"/><stop offset="50%" stop-color="#c711e1"/><stop offset="100%" stop-color="#7f52ff"/></linearGradient></defs><path fill="url(#a)" d="M10 54h44L32 32l22-22H10z"/></svg>
